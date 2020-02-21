@@ -297,7 +297,7 @@ include <puzzlecad.scad>
 // of $burr_scale, the individual pyramids (and especially tetrahedra) will come out very small.
 
 // Pieces modeled with diagonal geometry will often be laid out in an orientation that is not
-// suited to printing. puzzlecad provides the convenient $post_rotate option to copy with this.
+// suited to printing. puzzlecad provides the convenient $post_rotate option to cope with this.
 // If $post_rotate is specified, then after rendering, puzzlecad will apply that rotation each piece.
 // (Of course, this could also be done using the OpenSCAD rotate primitive; but if you use
 // $post_rotate, then puzzlecad will take it into account when laying out a burr plate and choose
